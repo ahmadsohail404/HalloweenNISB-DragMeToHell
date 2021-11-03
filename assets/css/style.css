@@ -85,7 +85,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: white;
+  /* color: white; */
 }
 html {
   scroll-behavior: smooth;
@@ -465,7 +465,6 @@ img {
 }
 .social__icons i:not(:last-child) {
   margin-right: var(--mb-05);
-  color: white;
 }
 /*accessory*/
 .accessory__card {

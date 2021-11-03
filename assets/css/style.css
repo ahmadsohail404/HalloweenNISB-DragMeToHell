@@ -464,6 +464,7 @@ img {
 }
 .social__icons i:not(:last-child) {
   margin-right: var(--mb-05);
+  color: white;
 }
 /*accessory*/
 .accessory__card {
@@ -737,6 +738,7 @@ img {
   }
   .box__input input {
     width: 60%;
+    color: white;
   }
   .box__input button {
     width: 30%;

@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Drag me to hell</title>
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon.png"
+      type="image/x-icon"
+    />
+
+    <link
+      href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/normalize.css" />
+  </head>
+
+  <body>
+    <header class="header" id="header">
+      <div class="header__container container">
+        <a href="#" class="logo">
+          <img src="assets/img/logo.png" alt="" />
+          DRAG ME TO HELL
+        </a>
+
+        <nav class="nav" id="nav">
+          <ul class="nav__menu">
+            <li class="nav__item">
+              <a href="#" class="nav__link active-link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#decoration" class="nav__link">DECORATIONS</a>
+            </li>
+            <li class="nav__item">
+              <a href="#delicacy" class="nav__link"> TREATS</a>
+            </li>
+            <li class="nav__item">
+              <a href="#accessory" class="nav__link"> ACCESSORIES</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="btn btn__outline"> CONTACT</a>
+            </li>
+          </ul>
+
+          <div class="nav__close" id="nav-close">
+            <i class="bx bx-x"></i>
+          </div>
+        </nav>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bxs-grid-alt"></i>
+        </div>
+      </div>
+    </header>
+
+    <!-- main -->
+    <main>
+      <section class="hero">
+        <img src="assets/img/bats.png" alt="" id="bats" />
+        <!-- <img src="assets/img/wolf.png" alt="" id="wolf" /> -->
+      </section>
+
+      <!-- decoration -->
+      <section class="decoration container section" id="decoration">
+        <h1 class="section__title">Creepy Decorations</h1>
+        <div class="decoration__container grid">
+          <div class="decoration__card">
+            <div class="decoration__card-img">
+              <img src="assets/img/img-deco-1.png" alt="" />
+            </div>
+            <div class="decoration__card-content">
+              <h2>Ghost</h2>
+              <h3>Pendant</h3>
+              <span class="discount">₹ 1,100</span>
+              <span class="price">₹ 499</span>
+            </div>
+            <button class="btn btn__orange">Purchase</button>
+          </div>
+
+          <div class="decoration__card">
+            <div class="decoration__card-img">
+              <img src="assets/img/img-deco-2.png" alt="" />
+            </div>
+            <div class="decoration__card-content">
+              <h2>Witch Skull</h2>
+              <h3>Paper Weight</h3>
+              <span class="discount">₹ 999</span>
+              <span class="price">₹ 499</span>
+            </div>
+            <button class="btn btn__orange">Purchase</button>
+          </div>
+
+          <div class="decoration__card">
+            <div class="decoration__card-img">
+              <img src="assets/img/img-deco-3.png" alt="" />
+            </div>
+            <div class="decoration__card-content">
+              <h2>Sister Pumpkins</h2>
+              <h3>Scented Candle</h3>
+              <span class="discount">₹ 1,299</span>
+              <span class="price">₹ 499</span>
+            </div>
+            <button class="btn btn__orange">Purchase</button>
+          </div>
+        </div>
+      </section>
+      <!-- decoration end-->
+      <!-- delicacy -->
+      <section class="delicacy container section" id="delicacy">
+        <h1 class="section__title">Scary Treats</h1>
+        <div class="delicacy__container grid">
+          <div class="delicacy__card">
+            <div class="delicacy__card-img">
+              <img src="assets/img/img-guloseima-1.png" alt="" />
+            </div>
+            <div class="delicacy__card-content">
+              <h2>Pumpkin Candy</h2>
+              <h3>Halloween Special</h3>
+            </div>
+            <div class="prices">
+              <span class="price">₹ 599</span>
+              <button class="btn btn__icon"><i class="bx bxs-cart"></i></button>
+            </div>
+          </div>
+
+          <div class="delicacy__card">
+            <div class="delicacy__card-img">
+              <img src="assets/img/img-guloseima-2.png" alt="" />
+            </div>
+            <div class="delicacy__card-content">
+              <h2>Liqueur Candy</h2>
+              <h3>Halloween Special</h3>
+            </div>
+            <div class="prices">
+              <span class="price">₹ 699</span>
+              <button class="btn btn__icon"><i class="bx bxs-cart"></i></button>
+            </div>
+          </div>
+
+          <div class="delicacy__card">
+            <div class="delicacy__card-img">
+              <img src="assets/img/img-guloseima-3.png" alt="" />
+            </div>
+            <div class="delicacy__card-content">
+              <h2>Gelatin Eyes</h2>
+              <h3>Halloween Special</h3>
+            </div>
+            <div class="prices">
+              <span class="price">₹ 499</span>
+              <button class="btn btn__icon"><i class="bx bxs-cart"></i></button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- delicacy end -->
+      <!-- social container -->
+      <section class="social section">
+        <div class="social__container container grid">
+          <div class="social__img">
+            <img src="assets/img/img-social.png" alt="" />
+          </div>
+          <div class="social__info">
+            <h1>More releases coming soon</h1>
+            <p>Follow us on social media to stay in the know.</p>
+            <div class="social__icons">
+              <i class="bx bxl-facebook-circle"></i>
+              <i class="bx bxl-instagram"></i>
+              <i class="bx bxl-twitter"></i>
+              <i class="bx bxl-pinterest"></i>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- social container end -->
+      <!-- accessory -->
+      <section class="accessory section" id="accessory">
+        <h1 class="section__title">Horrifying Accessories</h1>
+        <div class="accessory__conatiner container">
+          <div class="accessory__card grid accessory__card-left">
+            <div class="accessory__img">
+              <img src="assets/img/img-acessorio-1.png" alt="" />
+            </div>
+            <div class="accessory__data">
+              <h2>Porcelain Cat</h2>
+              <h3>3 amazing colors</h3>
+              <p>Halloween special product. Get at the best ever price💰</p>
+              <div class="accessory__box">
+                <div class="accessory__price">
+                  <span class="discount">₹ 2,799</span>
+                  <span class="price">₹ 1,299</span>
+                </div>
+                <button class="btn btn__orange">Purchase</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="accessory__card grid accessory__card-right">
+            <div class="accessory__img img__two">
+              <img src="assets/img/img-acessorio-2.png" alt="" />
+            </div>
+            <div class="accessory__data data__two">
+              <h2>Pumpkin Bucket</h2>
+              <h3>Various sizes</h3>
+              <p>Halloween special product. Get at the best ever price💰.</p>
+              <div class="accessory__box">
+                <div class="accessory__price">
+                  <span class="discount">₹ 2,799</span>
+                  <span class="price">₹ 1,499</span>
+                </div>
+                <button class="btn btn__orange">Purchase</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="accessory__card grid accessory__card-left">
+            <div class="accessory__img">
+              <img src="assets/img/img-acessorio-3.png" alt="" />
+            </div>
+            <div class="accessory__data">
+              <h2>Customized Bags</h2>
+              <h3>Assorted prints</h3>
+              <p>Halloween special product. Get at the best ever price💰.</p>
+              <div class="accessory__box">
+                <div class="accessory__price">
+                  <span class="discount">₹ 2,499</span>
+                  <span class="price">₹ 1,499</span>
+                </div>
+                <button class="btn btn__orange">Purchase</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- accessory end -->
+
+      <!-- newsleter -->
+      <section class="newsletter container section">
+        <div class="newsletter__title">
+          <h1>Don't miss our terrifying news</h1>
+          <p>Leave your best e-mail and always stay up to date.</p>
+          <form>
+            <div class="box__input">
+              <input type="text" placeholder="Your email" />
+              <button class="btn btn__orange">I want to receive</button>
+            </div>
+          </form>
+        </div>
+      </section>
+      <!-- newsleter end -->
+    </main>
+    <!-- main end-->
+
+    <!-- footer -->
+    <footer class="footer section">
+      <div class="footer__container container grid">
+        <div class="footer__logo">
+          <a href="#" class="logo">
+            <img src="assets/img/logo.png" alt="" />
+            HALLOWEEN
+          </a>
+          <div class="social__icons">
+            <i class="bx bxl-facebook-circle"></i>
+            <i class="bx bxl-instagram"></i>
+            <i class="bx bxl-twitter"></i>
+            <i class="bx bxl-pinterest"></i>
+          </div>
+        </div>
+
+        <div class="footer__data">
+          <h2>Menu</h2>
+          <a href="#decoration">Decoration</a>
+          <a href="#delicacy"> Treats</a>
+          <a href="#accessory"> Accessories</a>
+        </div>
+
+        <div class="footer__data">
+          <h2>About the Developer</h2>
+          <a href="https://linkedin.com/in/ahmadsohail404">LinkedIn</a>
+          <a href="https://github.com/ahmadsohail404">GitHub</a>
+          <a href="https://instagram.com/ahmadsohail_ig">Instagam</a>
+        </div>
+      </div>
+
+      <div class="copy">
+        <p style="font-size: medium">
+          "Happiness can be found, even in the darkest of times, if one only
+          remembers to turn on the light" 🪔
+        </p>
+        <span>Made with ❤️ by Sohail</span>
+      </div>
+    </footer>
+    <!-- footer end -->
+    <!-- header top -->
+    <a href="#" class="scrollup" id="scroll-up"
+      ><i class="bx bx-up-arrow-alt"></i
+    ></a>
+    <!-- header top end -->
+
+    <script src="assets/js/style.js"></script>
+
+    <!-- VanillaTilt -->
+
+    <script type="text/javascript" src="assets/js/vanilla-tilt.js"></script>
+    <script>
+      VanillaTilt.init(document.querySelector(".social__container"), {
+        max: 15,
+        speed: 200,
+      });
+
+      VanillaTilt.init(document.querySelector(".hero"), {
+        max: 15,
+        speed: 200,
+      });
+
+      VanillaTilt.init(document.querySelector(".accessory__card-right"), {
+        max: 7,
+        speed: 200,
+      });
+
+      VanillaTilt.init(document.querySelector(".accessory__card-left"), {
+        max: 7,
+        speed: 200,
+      });
+
+      VanillaTilt.init(document.querySelector(".header"), {
+        max: 7,
+        speed: 200,
+      });
+    </script>
+
+    <!--==== SCROLL Trigger ====-->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollTrigger.min.js"></script>
+    <script>
+      gsap.to("#bats", {
+        scrollTrigger: {
+          scrub: 0.5,
+        },
+        x: 1500,
+        y: 500,
+      });
+
+      gsap.to("#wolf", {
+        scrollTrigger: {
+          scrub: 0.5,
+        },
+        x: -500,
+      });
+    </script>
+  </body>
+</html>

@@ -1,6 +1,6 @@
 /*LINK DO GOOLGE*/
 @import url("https://fonts.googleapis.com/css2?family=Henny+Penny&family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&family=Irish+Grover&family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Henny+Penny&family=Irish+Grover&family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
 :root {
   --header-height: 6rem;
 
@@ -87,7 +87,7 @@
   box-sizing: border-box;
 }
 html {
-  scroll-behavior:smooth;
+  scroll-behavior: smooth;
 }
 body {
   font-family: var(--font-body);
@@ -125,9 +125,8 @@ img {
   margin-bottom: 30px;
 } */
 
-
 .section__title {
-  font-family: 'Henny Penny',cursive;
+  font-family: "Henny Penny", cursive;
   font-size: var(--h1-font-size);
   line-height: 50px;
   text-align: center;
@@ -155,7 +154,6 @@ img {
   border: none;
   cursor: pointer;
   transition: 0.4s;
-  
 }
 .btn__orange {
   background-color: var(--primary-color);
@@ -190,11 +188,10 @@ img {
 }
 .logo {
   display: flex;
-  align-items:center;
+  align-items: center;
   color: var(--white-color);
   font-size: var(--h1-font-size);
-font-family: 'Henny Penny',
-cursive;
+  font-family: "Henny Penny", cursive;
 }
 .logo img {
   width: 60px;
@@ -385,7 +382,6 @@ cursive;
 }
 .decoration__card:hover button {
   opacity: 1;
-  
 }
 /*DELICACY*/
 .delicacy__card {
@@ -398,12 +394,10 @@ cursive;
   position: relative;
   /* box-shadow: rgba(0, 0, 0, 0.5) !important;
   background: rgba(255, 255, 255, 0.1) !important;  */
-  
 }
 .delicacy__card-img {
   margin-bottom: var(--mb-1-5);
   transition: 0.3s;
-  
 }
 .delicacy__card:hover .delicacy__card-img {
   transform: translateY(-0.5rem);
@@ -463,6 +457,7 @@ cursive;
 }
 .social__icons i {
   font-size: var(--h1-font-size);
+  color: white;
 }
 .social__icons i:hover {
   color: var(--primary-color);
@@ -541,7 +536,7 @@ cursive;
   margin-bottom: var(--mb-1-5);
 }
 .newsletter h1 {
-  font-family: 'Henny Penny',cursive;
+  font-family: "Henny Penny", cursive;
   font-size: var(--h1-font-size);
   font-weight: var(--font-extrabold);
   margin-bottom: var(--mb-1);
